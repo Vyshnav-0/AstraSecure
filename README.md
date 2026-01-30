@@ -42,7 +42,7 @@ AstraSecure is a comprehensive, Python-based security auditing toolkit designed 
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/astrasecure.git
+    git clone https://github.com/Vyshnav-0/AstraSecure.git
     cd astrasecure
     ```
 
