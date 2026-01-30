@@ -1,0 +1,6 @@
+customtkinter
+passlib
+pandas
+regex
+bcrypt
+argon2-cffi

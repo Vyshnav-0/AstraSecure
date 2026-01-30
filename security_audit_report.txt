@@ -1,0 +1,56 @@
+============================================================
+🔒 CYBERSECURITY AUDIT REPORT
+============================================================
+Generated On   : 2026-01-30 18:24:38
+Target Database: test_hashes.csv
+Audit Source   : generated_dict.txt
+------------------------------------------------------------
+
+1. EXECUTIVE SUMMARY & RISK ASSESSMENT
+========================================
+Risk Level      : [HIGH]
+Total Accounts  : 31044
+Compromised     : 10000
+Vulnerability % : 32.2%
+Assessment      : Significant exposure. Immediate action recommended.
+
+2. ATTACK SIMULATION METRICS
+========================================
+Attack Method   : Dictionary Attack (Wordlist Matching)
+Algorithm       : SHA256 (Simulated)
+Audit Duration  : 1.1066 seconds
+Note            : Represents vulnerability to basic offline attacks.
+
+3. WEAKNESS ANALYSIS
+========================================
+Breakdown of identified vulnerabilities:
+ - Length < 8      : 114 occurrences
+ - No Numbers      : 70 occurrences
+ - Common Word     : 10000 occurrences
+
+[Detailed Findings - Sample]
+Password             | Strength Rating | Entropy
+-------------------------------------------------------
+!1997J0HN            | Reasonable      | 54.79
+!1997J0HN-97John     | Strong          | 104.87
+!1997J0HN-97j0hn     | Strong          | 104.87
+!1997J0HN-J0HN1997   | Strong          | 109.57
+!1997J0HN-J0HN_1997  | Strong          | 115.66
+!1997J0HN-J0hn       | Strong          | 91.76
+!1997J0HN-J0hn@1997  | Strong          | 124.54
+!1997J0HN-J0hn@97    | Strong          | 111.43
+!1997J0HN-J0hn_1997  | Strong          | 124.54
+!1997J0HN-JOHN       | Strong          | 85.22
+... and 9990 more.
+
+4. RECOMMENDED PASSWORD POLICIES
+========================================
+⚠️ IMMEDIATE ACTIONS REQUIRED:
+   1. Force Password Reset: 10000 accounts are using common passwords.
+   2. Update Policy: Enforce Minimum Length of 12 characters.
+   4. Blacklist: Disallow top 1000 common passwords (e.g., 'password', '123456').
+   5. Implementation: Enable Multi-Factor Authentication (MFA) on all accounts.
+
+============================================================
+END OF REPORT
+============================================================

@@ -1,0 +1,3 @@
+Username,Hash_Value,Algorithm
+root,$6$salt123$hashhashhash...,SHA-512 (Linux)
+john,8846F7EAEE8FB117AD06BDD830B7586C,NTLM
